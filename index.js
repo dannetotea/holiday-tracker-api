@@ -22,7 +22,7 @@ module.exports = () => {
     const vacantionDaysTaken = vacationRandomDays[Math.floor(Math.random() * vacationRandomDays.length)];
 
     const availableVacationDays = totalVacationDays - (leftovers2019 + christmasDays + vacantionDaysTaken)
-
+//comment 1
     employees.push({
       "id": id,
       "first_name": firstName,
