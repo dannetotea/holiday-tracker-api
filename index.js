@@ -23,6 +23,7 @@ module.exports = () => {
 
     const availableVacationDays = totalVacationDays - (leftovers2019 + christmasDays + vacantionDaysTaken)
 //comment 1
+    //comment2
     employees.push({
       "id": id,
       "first_name": firstName,
